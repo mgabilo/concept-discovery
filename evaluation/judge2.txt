@@ -1,0 +1,200 @@
+C logic : reasoning.n.01 -- thinking that is coherent and logical
+C veracity : inclination.n.01 -- an attitude of mind especially one that favors one alternative over others
+C flower : solid.n.01 -- matter that is solid at room temperature and pressure
+C risk : worth.n.02 -- the quality that renders something desirable or valuable or useful
+C cluster : structure.n.03 -- the complex composition of knowledge as elements and their combinations
+C distortion : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C wording : quality.n.01 -- an essential and distinguishing attribute of something or someone
+C raft : conveyance.n.03 -- something that serves as a means of transportation
+W equipment : writing.n.04 -- letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+C cro : design.n.04 -- a decorative or artistic work
+C professorship : award.n.02 -- a tangible symbol signifying approval or distinction
+C fallacy : psychological_state.n.01 -- (psychology) a mental condition in which the qualities of a state are relatively constant even though the state itself may be dynamic
+C mix : collection.n.01 -- several things grouped together or considered as a whole
+W few : motion.n.03 -- a change of position that does not entail a change of location
+C transit : carrier.n.05 -- a person or firm in the business of transporting people or goods or messages
+C terrorism : organic_process.n.01 -- a process occurring in living organisms
+C medal : acquisition.n.02 -- something acquired
+C thorn : bad_person.n.01 -- a person who does harm to others
+C marble : building_material.n.01 -- material used for constructing buildings
+C degradation : chemical_process.n.01 -- (chemistry) any process determined by the atomic and molecular composition and structure of the substances involved
+C expansion : structure.n.01 -- a thing constructed; a complex entity constructed of many parts
+W definition : collection.n.01 -- several things grouped together or considered as a whole
+W visibility : natural_process.n.01 -- a process existing in or produced by nature (rather than by the intent of human beings)
+C arrangement : representation.n.02 -- a creation that is a visual or tangible rendering of someone or something
+C photograph : indication.n.01 -- something that serves to indicate or suggest
+W bowling : humanistic_discipline.n.01 -- studies intended to provide general knowledge and intellectual skills (rather than occupational or professional skills)
+C intelligence : medium.n.01 -- a means or instrumentality for storing or communicating information
+W language : collection.n.01 -- several things grouped together or considered as a whole
+C emigration : organic_process.n.01 -- a process occurring in living organisms
+W translation : collection.n.01 -- several things grouped together or considered as a whole
+W air_force : unit_of_measurement.n.01 -- any division of quantity accepted as a standard of measurement or exchange
+C single : musical_composition.n.01 -- a musical work that has been created
+C being : spiritual_being.n.01 -- an incorporeal being believed to have powers to affect the course of human events
+C essay : work.n.02 -- a product produced or accomplished through the effort or activity or agency of a person or thing
+W crisis : fundamental_quantity.n.01 -- one of the four quantities that are the basis of systems of measurement
+C surplus : sum.n.01 -- a quantity of money
+W hop : humanistic_discipline.n.01 -- studies intended to provide general knowledge and intellectual skills (rather than occupational or professional skills)
+C selection : representation.n.02 -- a creation that is a visual or tangible rendering of someone or something
+C parameter : system_of_measurement.n.01 -- a system of related measures that facilitates the quantification of some particular characteristic
+C poll : statement.n.01 -- a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc
+C territory : state.n.02 -- the way something is with respect to its main attributes
+C revenue : system_of_measurement.n.01 -- a system of related measures that facilitates the quantification of some particular characteristic
+C cavalry : skilled_worker.n.01 -- a worker who has acquired special skills
+C navigation : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C turn_of_the_century : reading.n.03 -- a datum about some physical state that is presented to a user by a meter or similar instrument
+C formatting : arrangement.n.02 -- an orderly grouping (of things or persons) considered as a unit; the result of arranging
+C simple : expressive_style.n.01 -- a way of expressing something (in language or art or music etc.) that is characteristic of a particular person or group of people or period
+C skill : expressive_style.n.01 -- a way of expressing something (in language or art or music etc.) that is characteristic of a particular person or group of people or period
+W former : arrangement.n.02 -- an orderly grouping (of things or persons) considered as a unit; the result of arranging
+C writing : collection.n.01 -- several things grouped together or considered as a whole
+C proportion : quantity.n.03 -- the concept that something has a magnitude and can be represented in mathematical expressions by a constant or a variable
+W own_right : area.n.01 -- a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)
+C poetry : diversion.n.01 -- an activity that diverts or amuses or stimulates
+C inclusion : use.n.01 -- the act of using
+C farming : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C intention : aid.n.02 -- the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose
+C blog : machine.n.01 -- any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks
+C plagiarism : organic_process.n.01 -- a process occurring in living organisms
+C conservatism : morality.n.01 -- concern with the distinction between good and evil or right and wrong; right or good conduct
+C statistics : investigation.n.02 -- the work of inquiring into something thoroughly and systematically
+C heath : natural_elevation.n.01 -- a raised or elevated geological formation
+W enterprise : conveyance.n.03 -- something that serves as a means of transportation
+W economic_growth : motion.n.06 -- the act of changing location from one place to another
+C data : part.n.02 -- something less than the whole of a human artifact
+W baba : ancestor.n.01 -- someone from whom you are descended (but usually more remote than a grandparent)
+C engineer : unit.n.03 -- an organization regarded as part of a larger social group
+C lawsuit : pleading.n.01 -- (law) a statement in legal and logical form stating something on behalf of a party to a legal proceeding
+W nick : entertainer.n.01 -- a person who tries to please or amuse
+W sonny : capitalist.n.02 -- a person who invests capital in a business (especially a large business)
+C addiction : trouble.n.03 -- an event causing distress or pain
+C violence : trouble.n.03 -- an event causing distress or pain
+W array : property.n.02 -- a basic or essential attribute shared by all members of a class
+W function : phenomenon.n.01 -- any state or process known through the senses rather than by intuition or reasoning
+C tennis : humanistic_discipline.n.01 -- studies intended to provide general knowledge and intellectual skills (rather than occupational or professional skills)
+W exchange : property.n.02 -- a basic or essential attribute shared by all members of a class
+W data : quality.n.01 -- an essential and distinguishing attribute of something or someone
+W camel : wheeled_vehicle.n.01 -- a vehicle that moves on wheels and usually has a container for transporting things or people
+C anxiety : evidence.n.01 -- your basis for belief or disbelief; knowledge on which to base belief
+W rick : entertainer.n.01 -- a person who tries to please or amuse
+W terminology : use.n.01 -- the act of using
+W reliability : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C housing : property.n.01 -- something owned; any tangible or intangible possession that is owned by someone; 
+W volume : part.n.02 -- something less than the whole of a human artifact
+W radiation : fluid.n.02 -- continuous amorphous matter that tends to flow and to conform to the outline of its container: a liquid or a gas
+W enforcement : state.n.02 -- the way something is with respect to its main attributes
+C beating : mistreatment.n.01 -- the practice of treating (someone or something) badly
+W intro : work.n.02 -- a product produced or accomplished through the effort or activity or agency of a person or thing
+C ruler : kin.n.02 -- group of people related by blood or marriage
+W metric : structure.n.03 -- the complex composition of knowledge as elements and their combinations
+C allegation : belief.n.01 -- any cognitive content held as true
+C produce : commodity.n.01 -- articles of commerce
+C settler : kin.n.02 -- group of people related by blood or marriage
+C fisherman : traveler.n.01 -- a person who changes location
+W honey : plant_part.n.01 -- any part of a plant or fungus
+C concrete : mixture.n.01 -- (chemistry) a substance consisting of two or more substances mixed together (not in fixed proportions and not with chemical bonding)
+C hypothesis : arrangement.n.02 -- an orderly grouping (of things or persons) considered as a unit; the result of arranging
+C faithful : employee.n.01 -- a worker who is hired to perform a job
+C robot : creativity.n.01 -- the ability to create
+C business : property.n.01 -- something owned; any tangible or intangible possession that is owned by someone; 
+C lyric : work.n.02 -- a product produced or accomplished through the effort or activity or agency of a person or thing
+C corps : skilled_worker.n.01 -- a worker who has acquired special skills
+C factory : enterprise.n.02 -- an organization created for business ventures
+C multimedia : medium.n.01 -- a means or instrumentality for storing or communicating information
+C multiplication : notation.n.01 -- a technical system of symbols used to represent special things
+C entry : information.n.02 -- knowledge acquired through study or experience or instruction
+C list : representation.n.02 -- a creation that is a visual or tangible rendering of someone or something
+W sensor : writing.n.04 -- letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+C formation : property.n.02 -- a basic or essential attribute shared by all members of a class
+C mortality : growth.n.06 -- (pathology) an abnormal proliferation of tissue (as in a tumor)
+C tv : social_event.n.01 -- an event characteristic of persons forming groups
+W replacement : entertainer.n.01 -- a person who tries to please or amuse
+W khan : holy_order.n.01 -- (usually plural) the status or rank or office of a Christian clergyman in an ecclesiastical hierarchy
+C holiday : diversion.n.01 -- an activity that diverts or amuses or stimulates
+C weasel : bad_person.n.01 -- a person who does harm to others
+C tide : atmospheric_phenomenon.n.01 -- a physical phenomenon associated with the atmosphere
+C ambassador : politician.n.01 -- a leader engaged in civil administration
+C algorithm : arrangement.n.02 -- an orderly grouping (of things or persons) considered as a unit; the result of arranging
+W c : spiritual_leader.n.01 -- a leader in religious or sacred affairs
+C importance : concept.n.01 -- an abstract or general idea inferred or derived from specific instances
+C specific : statement.n.01 -- a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc
+C survivor : traveler.n.01 -- a person who changes location
+C trade : agreement.n.01 -- the statement (oral or written) of an exchange of promises
+W d : entertainer.n.01 -- a person who tries to please or amuse
+W functioning : trait.n.01 -- a distinguishing feature of your personal nature
+W destroyer : unit.n.03 -- an organization regarded as part of a larger social group
+C uncertainty : disagreement.n.03 -- the speech act of disagreeing or arguing or disputing
+C censorship : social_control.n.01 -- control exerted (actively or passively) by group action
+C national : state.n.02 -- the way something is with respect to its main attributes
+C ethnicity : orientation.n.02 -- an integrated set of attitudes and beliefs
+C entropy : physical_phenomenon.n.01 -- a natural phenomenon involving the physical properties of matter and energy
+C combination : concept.n.01 -- an abstract or general idea inferred or derived from specific instances
+C skill : trait.n.01 -- a distinguishing feature of your personal nature
+C coat_of_arms : symbol.n.01 -- an arbitrary sign (written or printed) that has acquired a conventional significance
+C entropy : rate.n.01 -- a magnitude or frequency relative to a time unit
+C developer : enterprise.n.02 -- an organization created for business ventures
+W reversion : reasoning.n.01 -- thinking that is coherent and logical
+C allegation : informing.n.02 -- a speech act that conveys information
+C vote : statement.n.01 -- a message that is stated or declared; a communication (oral or written) setting forth particulars or facts etc
+C diversity : property.n.04 -- a construct whereby objects or individuals can be distinguished
+C principle : property.n.02 -- a basic or essential attribute shared by all members of a class
+W mechanism : arrangement.n.02 -- an orderly grouping (of things or persons) considered as a unit; the result of arranging
+C beads : implement.n.01 -- instrumentation (a piece of equipment or tool) used to effect an end
+C avenger : preserver.n.03 -- someone who keeps safe from harm or danger
+C database : part.n.02 -- something less than the whole of a human artifact
+C pharmacy : enterprise.n.02 -- an organization created for business ventures
+W machine : writing.n.04 -- letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+C representation : part.n.01 -- something determined in relation to something that includes it
+C property : collection.n.01 -- several things grouped together or considered as a whole
+C complex : institution.n.01 -- an organization founded and united for a specific purpose
+C musical : musical_organization.n.01 -- an organization of musicians who perform together
+C theory : collection.n.01 -- several things grouped together or considered as a whole
+C atheism : morality.n.01 -- concern with the distinction between good and evil or right and wrong; right or good conduct
+W missile : chemical.n.01 -- material produced by or used in a reaction involving changes in atoms or molecules
+W custom : writing.n.04 -- letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+W great : natural_elevation.n.01 -- a raised or elevated geological formation
+C intensity : rate.n.01 -- a magnitude or frequency relative to a time unit
+C separation : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C variant : property.n.02 -- a basic or essential attribute shared by all members of a class
+C federal_government : authority.n.03 -- an expert whose views are taken as definitive
+C milestone : accomplishment.n.01 -- the action of accomplishing something
+C series : literary_composition.n.01 -- imaginative or creative writing
+C function : part.n.02 -- something less than the whole of a human artifact
+C nationalism : practice.n.01 -- a customary way of operation or behavior
+W kit : writing.n.04 -- letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+C countryside : land.n.04 -- the solid part of the earth's surface
+W economics : art.n.01 -- the products of human creativity; works of art collectively
+C illness : organic_process.n.01 -- a process occurring in living organisms
+C environment : collection.n.01 -- several things grouped together or considered as a whole
+C usage : quality.n.01 -- an essential and distinguishing attribute of something or someone
+C stereotype : inclination.n.01 -- an attitude of mind especially one that favors one alternative over others
+C formation : concept.n.01 -- an abstract or general idea inferred or derived from specific instances
+C bachelor : award.n.02 -- a tangible symbol signifying approval or distinction
+C map : collection.n.01 -- several things grouped together or considered as a whole
+W jihad : trait.n.01 -- a distinguishing feature of your personal nature
+W pick : player.n.01 -- a person who participates in or is skilled at some game
+C league : sport.n.01 -- an active diversion requiring physical exertion and competition
+C acceleration : physical_property.n.01 -- any property used to characterize matter and energy and their interactions
+W hut : topographic_point.n.01 -- a point located with respect to surface features of some region
+W gp : instrument.n.01 -- a device that requires skill for proper use
+C bulk : part.n.02 -- something less than the whole of a human artifact
+C building : geographical_area.n.01 -- a demarcated area of the Earth
+C electricity : fuel.n.01 -- a substance that can be consumed to produce energy
+C monastery : geographical_area.n.01 -- a demarcated area of the Earth
+C public_school : establishment.n.04 -- a public or private structure (business or governmental or educational) including buildings and equipment for business or residence
+W combat : conveyance.n.03 -- something that serves as a means of transportation
+C scenario : property.n.02 -- a basic or essential attribute shared by all members of a class
+W taxpayer : sum.n.01 -- a quantity of money
+C orientation : property.n.02 -- a basic or essential attribute shared by all members of a class
+C scheme : property.n.02 -- a basic or essential attribute shared by all members of a class
+C elements : collection.n.01 -- several things grouped together or considered as a whole
+C investment : enterprise.n.02 -- an organization created for business ventures
+W cult : person.n.01 -- a human being
+W lighting : energy.n.01 -- (physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs
+C tactics : trait.n.01 -- a distinguishing feature of your personal nature
+C variable : mathematical_relation.n.01 -- a relation between mathematical expressions (such as equality or inequality)
+C long_time : time.n.05 -- the continuum of experience in which events pass from the future through the present to the past
+W few : basic_cognitive_process.n.01 -- cognitive processes involved in obtaining and storing knowledge
+C percent : amount.n.02 -- the relative magnitude of something with reference to a criterion
+W mayo : aristocrat.n.01 -- a member of the aristocracy
+C veronica : woman.n.01 -- an adult female person (as opposed to a man)
