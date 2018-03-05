@@ -1,10 +1,39 @@
+# concept-discovery
+
+The full description of the system can be found in the
+[paper](http://mgabilo.org/concept-discovery.html).
+
+Here is a modified excerpt from the abstract:
+
+This program discovers additional ontological categories for words
+which are underrepresented in the WordNet ontology.  The basic
+approach begins with extracting local syntactic dependencies for each
+word by parsing a large corpus to construct feature vectors for those
+words.  The words' feature vectors are used to construct feature
+vectors for upper-level ontological concepts by bootstrapping from the
+existing WordNet ontology.  A similarity metric between these two
+types of feature vectors is used to discover ontological categories
+for some words.
+
+
+## Download the dataset 
+
+These are the feature vectors for each word that resulted from parsing
+about 1 million sentences of Wikipedia. Choose from one of the
+following mirrors. 
+
+* [Mirror 1 - Google drive](https://drive.google.com/file/d/1GaBpQaHZOny-rVPc3lxgL_1Zxq2UFVRY/view?usp=sharing)
+* [Mirror 2 - Dropbox](https://www.dropbox.com/s/jfzb78ivc6jwdbi/word-feature-frequencies.tar?dl=1)
+* [Mirror 3 - MEGA](https://mega.nz/#!yjwzXYaZ!wGAIkm3VvNrE3jPtDSC6BwmyR9ldEi6dfSPPCf_M2-c)
+
+
+
+
+
+------------------------------------------------------------------------
+
 ** word-feature-frequencies.tar download mirrors:
 
-https://drive.google.com/file/d/1GaBpQaHZOny-rVPc3lxgL_1Zxq2UFVRY/view?usp=sharing
-
-https://www.dropbox.com/s/jfzb78ivc6jwdbi/word-feature-frequencies.tar?dl=1
-
-https://mega.nz/#!yjwzXYaZ!wGAIkm3VvNrE3jPtDSC6BwmyR9ldEi6dfSPPCf_M2-c
 
 
 

@@ -19,7 +19,8 @@ from make_pmi_db import load_words_mem_db
 import featuremap
 import math
 
-ASSIGN_COMMITTEES_T = 0.06
+ASSIGN_COMMITTEES_T = 0.045
+feature_map_toidx, feature_map_fromidx = featuremap.load_feature_map()
 
 def get_comparable_concepts(c_in, w_in, word_idx, word_dict):
     concept_set = set()
@@ -55,6 +56,11 @@ def sim(sim_c, concept1_dict, concept2):
     sim_c.execute('''select feature, pmi from concepts where concept = ?''', (concept2,))
     concept2_dict = {}
     for feature, pmi in sim_c:
+        feature_tup = feature_map_fromidx[feature]
+        section, feature_name = feature_tup
+        if section == 'modifiers_of_head':
+            continue
+
         concept2_dict[feature] = pmi
 
     concept1_norm = 0
@@ -88,6 +94,8 @@ def assign_committees_one_level(c_in, w_in, word_idx, word_dict):
     #max_committee, max_sim = max(candidate_committees_list, key=operator.itemgetter(1))
     #if max_sim > ASSIGN_COMMITTEES_T:
     #    return [ (max_committee, max_sim) ]
+    #return []
+
     return chosen_committees
 
 def assign_committees(c_in, w_in, word, word_map_toidx, concept_map_toidx):
@@ -98,18 +106,34 @@ def assign_committees(c_in, w_in, word, word_map_toidx, concept_map_toidx):
     word_dict = {}
     w_in.execute('''select feature, pmi from words where word = ?''', (word_idx,))
     for feature, pmi in w_in:
+        feature_tup = feature_map_fromidx[feature]
+        section, feature_name = feature_tup
+        if section == 'modifiers_of_head':
+            continue
+
         word_dict[feature] = pmi
+
+
     if len(word_dict.keys()) == 0:
         return []
 
-    #for i in range(0,5):
-    committees_list = assign_committees_one_level(c_in, w_in, word_idx, word_dict)
-    if len(committees_list) != 0:
-        committees_lil.append( committees_list )
-    #concept_idx, s = committees_list[0]
+    while word_dict_fcount(word_dict) > 40:
+        committees_list = assign_committees_one_level(c_in, w_in, word_idx, word_dict)
+        if len(committees_list) != 0:
+            committees_lil.append( committees_list )
+            concept_idx, s = committees_list[0]
+        elif len(committees_list) == 0:
+            break
 
-    #word_dict = remove_intersection(c_in, word_dict, concept_idx)
+        word_dict = remove_intersection(c_in, word_dict, concept_idx)
     return committees_lil
+
+def word_dict_fcount(word_dict):
+    high_fcount = 0
+    for feature, pmi in word_dict.items():
+        if pmi > 7.0:
+            high_fcount += 1
+    return high_fcount
 
 def get_all_words(words_dbfilein):
     word_map_toidx, word_map_fromidx = featuremap.load_concept_map('words.idx')
@@ -145,13 +169,24 @@ def main():
 def assign_committees_synset(c_in, w_in, word, word_map_toidx, concept_map_toidx, concept_map_fromidx):
     committees_lil = assign_committees(c_in, w_in, word, word_map_toidx, concept_map_toidx)
     if len(committees_lil) > 0:
-        print 'Word:', word
         for committee_list in committees_lil:
-            committee_list_readable = []
+
+            chosen_committees = []
             for c,s in committee_list:
                 c_name = concept_map_fromidx[c]
-                committee_list_readable.append( (c_name, s) )
-            print simplejson.dumps(committee_list_readable)
+                synset = nlwn.synset(c_name)
+
+                too_sim = False
+                for chosen_committee, chosen_s in chosen_committees:
+                    chosen_synset = nlwn.synset(chosen_committee)
+                    wn_s = synset.lin_similarity(chosen_synset, features.ic)
+                    if wn_s > 0.3:
+                        too_sim = True
+                        break
+                if not too_sim:
+                    chosen_committees.append((c_name, s))
+
+            print simplejson.dumps((word,chosen_committees))
 
 if __name__ == "__main__":
     main()
