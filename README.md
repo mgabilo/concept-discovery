@@ -1,7 +1,7 @@
 # concept-discovery
 
-The full description of the system can be found in [this
-paper](http://mgabilo.org/concept-discovery.html).
+The full description of the system can be found in the paper [on
+this page](http://mgabilo.org/concept-discovery.html).
 
 Here is a modified excerpt from the abstract:
 
@@ -155,13 +155,13 @@ judges to evaluate.
 ## Evaluation
 
 The steps above do not reproduce the same results [documented in the
-paper](http://mgabilo.org/concept-discovery.html).  However, I've
+paper](http://mgabilo.org/concept-discovery.pdf).  However, I've
 performed a new evaluation for the current data.  The results of the
 evaluation can be found in the following files.
 
-* evaluation/judge1.txt
-* evaluation/judge2.txt
-* evaluation/judge1-judge2-agreement.txt
+* [evaluation/judge1.txt](evaluation/judge1.txt)
+* [evaluation/judge2.txt](evaluation/judge2.txt)
+* [evaluation/judge1-judge2-agreement.txt](evaluation/judge1-judge2-agreement.txt)
 
 The two judges were given the same 200 random word-concept pairs from
 the file newly-discovered-word-concept.txt.  The task was to judge
@@ -178,11 +178,11 @@ word-concept pairs being correct.
 
 The software used to parse sentences in Wikipedia was a modified
 version of the Charniak parser which minimally reconstructs clause
-structures from the parse tree. The features (word vectors) were then
-extracted from these minimal clause structures.  This software is not
-currently available due to unclear licensing restrictions.  Of course,
-it should not be too much trouble to parse new sentences using e.g.,
-Stanford Parser, and write code to generate similar features.
+structures from the parse tree. The features (frequency-based word
+vectors) were then extracted from these minimal clause structures.
+This software is not currently available due to unclear licensing
+restrictions. In addition, the parses of the Wikipedia sentences are
+also not available.
 
 
 ## License
