@@ -54,11 +54,11 @@ the resulting GUI to download the corpus.
 This repository already includes the final results of running the
 steps in this section as the following files:
 
-* concept-vectors-upper-level
+* [concept-vectors-upper-level] (directory)
 
-* evaluation/word-concept-topsim.txt
+* [evaluation/word-concept-topsim.txt]
 
-* evaluation/word-concept-topsim.txt
+* [evaluation/word-concept-topsim.txt]
 
 
 Download and untar the dataset given in the section above. Move the
@@ -66,9 +66,9 @@ resulting directory "word-feature-frequencies" into the base directory
 of this repository. I'll assume the current/working directory is the
 base directory of this repository.
 
-Generate the PMI word feature vectors from the frequency word feature
-vectors. These are also more human-readable than the files in
-word-feature-frequencies, so can easily inspect them.
+Generate the PMI-based word feature vectors from the frequency-based
+word feature vectors. These are also more human-readable than the
+files in word-feature-frequencies, so you can easily inspect them.
 
 ```
 mkdir word-feature-pmi
@@ -186,7 +186,7 @@ Stanford Parser, and write code to generate similar features.
 
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3 - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
