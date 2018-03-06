@@ -54,11 +54,12 @@ the resulting GUI to download the corpus.
 This repository already includes the final results of running the
 steps in this section as the following files:
 
-* [concept-vectors-upper-level] (directory)
+* [concept-vectors-upper-level](concept-vectors-upper-level) (directory)
 
-* [evaluation/word-concept-topsim.txt]
+* [evaluation/word-concept-topsim.txt](evaluation/word-concept-topsim.txt)
 
-* [evaluation/word-concept-topsim.txt]
+* [evaluation/newly-discovered-word-concept.txt](evaluation/newly-discovered-word-concept.txt)
+
 
 
 Download and untar the dataset given in the section above. Move the
