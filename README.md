@@ -177,7 +177,7 @@ word-concept pairs being correct.
 ## What's not included
 
 The software used to parse sentences in Wikipedia was a modified
-version of the Charniak parser which minimally reconstructs clause
+version of the Charniak parser which minimally reconstructed clause
 structures from the parse tree. The features (frequency-based word
 vectors) were then extracted from these minimal clause structures.
 This software is not currently available due to unclear licensing
