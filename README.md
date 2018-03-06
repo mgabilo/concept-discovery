@@ -181,8 +181,8 @@ version of the Charniak parser which minimally reconstructed clause
 structures from the parse tree. The features (frequency-based word
 vectors) were then extracted from these minimal clause structures.
 This software is not currently available due to unclear licensing
-restrictions. In addition, the parses of the Wikipedia sentences are
-also not available.
+restrictions. In addition, the parse trees of the Wikipedia sentences
+are also not available.
 
 
 ## License
